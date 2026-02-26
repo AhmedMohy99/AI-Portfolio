@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Portfolio | Ahmed Mohy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span> Ahmed Mohy</a>
+      <nav class="menu">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="projects.html" data-i18n="navProjects">Projects</a>
+        <a href="about.html" data-i18n="navAbout">About</a>
+        <a href="contact.html" data-i18n="navContact">Contact</a>
+        <button class="lang-btn" id="langBtn" aria-label="Toggle Language">AR</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-card">
+        <div class="kicker">
+          <span data-i18n="heroKicker">AI Portfolio</span>
+          <span class="pill" data-i18n="heroPill">Beginner-friendly</span>
+        </div>
+        <h1 data-i18n="heroTitle">Build real AI projects. Show them professionally.</h1>
+        <p class="subtitle" data-i18n="heroSub">
+          A clean portfolio website to showcase your AI work, skills, and contact info — Arabic & English ready.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="projects.html" data-i18n="ctaProjects">View Projects</a>
+          <a class="btn" href="contact.html" data-i18n="ctaContact">Contact Me</a>
+        </div>
+
+        <p class="small" style="margin-top:12px">
+          GitHub: <a href="#" style="text-decoration:underline">Add your link</a> · LinkedIn: <a href="#" style="text-decoration:underline">Add your link</a>
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card feature">
+          <h3 data-i18n="f1">Projects that clients want</h3>
+          <p data-i18n="f1p">Chatbots, analytics, automation, and AI tools with real value.</p>
+        </div>
+        <div class="card feature">
+          <h3 data-i18n="f2">Simple and modern design</h3>
+          <p data-i18n="f2p">Looks professional on mobile and desktop.</p>
+        </div>
+        <div class="card feature">
+          <h3 data-i18n="f3">Ready to publish free</h3>
+          <p data-i18n="f3p">GitHub Pages or Vercel — no cost to go live.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-title">
+      <h2 data-i18n="latest">Featured Projects</h2>
+      <span data-i18n="latestHint">Add your best 3</span>
+    </div>
+
+    <section class="grid">
+      <article class="card project">
+        <h3 data-i18n="p1">Customer Support AI Chatbot</h3>
+        <p class="small" data-i18n="p1d">Website chatbot with FAQs + smart responses (Flask / FastAPI).</p>
+        <div class="badges">
+          <span class="badge">Python</span><span class="badge">Flask</span><span class="badge">OpenAI</span>
+        </div>
+        <a class="btn" href="projects.html">Details</a>
+      </article>
+
+      <article class="card project">
+        <h3 data-i18n="p2">AI Resume & Cover Letter Helper</h3>
+        <p class="small" data-i18n="p2d">Generate CV improvements and tailored cover letters.</p>
+        <div class="badges">
+          <span class="badge">NLP</span><span class="badge">Prompting</span><span class="badge">Web</span>
+        </div>
+        <a class="btn" href="projects.html">Details</a>
+      </article>
+
+      <article class="card project">
+        <h3 data-i18n="p3">Sales Lead Analyzer</h3>
+        <p class="small" data-i18n="p3d">Upload CSV leads → scoring + insights dashboard.</p>
+        <div class="badges">
+          <span class="badge">Pandas</span><span class="badge">Dashboard</span><span class="badge">ML</span>
+        </div>
+        <a class="btn" href="projects.html">Details</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <span data-i18n="footer">© 2026 Ahmed Mohy — AI Portfolio</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
