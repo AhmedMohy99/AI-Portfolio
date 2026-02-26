@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | AI Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span> Ahmed Mohy</a>
+      <nav class="menu">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="projects.html" data-i18n="navProjects">Projects</a>
+        <a href="about.html" data-i18n="navAbout">About</a>
+        <a href="contact.html" data-i18n="navContact">Contact</a>
+        <button class="lang-btn" id="langBtn">AR</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section-title">
+      <h2 data-i18n="navContact">Contact</h2>
+      <span class="small">Email / WhatsApp / Social</span>
+    </div>
+
+    <section class="card form">
+      <input class="input" placeholder="Your name" />
+      <input class="input" placeholder="Your email" />
+      <textarea class="input" placeholder="Your message"></textarea>
+      <button class="btn primary" type="button" onclick="alert('Connect this to Formspree or Google Forms to receive messages.')">
+        Send
+      </button>
+      <div class="note">
+        Tip: To receive real messages for free, use Formspree or a Google Form endpoint.
+      </div>
+
+      <div class="note">
+        Add your links here:
+        <br/>GitHub: <b>your link</b>
+        <br/>LinkedIn: <b>your link</b>
+        <br/>WhatsApp: <b>your number</b>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span data-i18n="footer">© 2026 Ahmed Mohy — AI Portfolio</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
